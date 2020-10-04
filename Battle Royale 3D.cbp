@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Solar Sailer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Battle Royale 3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Battle Royale 3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../../Application Setup Files/Codeblocks mingw/GLEW/lib/Release/Win32/glew32s.lib" />
+					<Add library="../../../Application Setup Files/Codeblocks mingw/GLEW/lib/Release/Win32/glew32.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="../../../Application Setup Files/Codeblocks mingw/GLEW/lib/Release/Win32/glew32s.lib" />
+			<Add library="../../../Application Setup Files/Codeblocks mingw/GLEW/lib/Release/Win32/glew32.lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="bin/Debug/res/shaders/AnimatedModel.shader" />
+		<Unit filename="bin/Debug/res/shaders/Basic.shader" />
+		<Unit filename="bin/Debug/res/shaders/Billboard.shader" />
+		<Unit filename="bin/Debug/res/shaders/Bloom.shader" />
+		<Unit filename="bin/Debug/res/shaders/BrightFilter.shader" />
+		<Unit filename="bin/Debug/res/shaders/Colorless.shader" />
+		<Unit filename="bin/Debug/res/shaders/Dummy.shader" />
+		<Unit filename="bin/Debug/res/shaders/GUI.shader" />
+		<Unit filename="bin/Debug/res/shaders/HorizotalBlur.shader" />
+		<Unit filename="bin/Debug/res/shaders/NormalMapped.shader" />
+		<Unit filename="bin/Debug/res/shaders/Particles.shader" />
+		<Unit filename="bin/Debug/res/shaders/Postprocessing.shader" />
+		<Unit filename="bin/Debug/res/shaders/Skybox.shader" />
+		<Unit filename="bin/Debug/res/shaders/Terrain.shader" />
+		<Unit filename="bin/Debug/res/shaders/VerticalBlur.shader" />
+		<Unit filename="bin/Debug/res/shaders/Water.shader" />
+		<Unit filename="include/Audio.cpp" />
+		<Unit filename="include/Bbody.h" />
+		<Unit filename="include/Engine.cpp" />
+		<Unit filename="include/Engine.cpp.save-failed" />
+		<Unit filename="include/constant.h" />
+		<Unit filename="include/imgui/example_glut_opengl2/Makefile" />
+		<Unit filename="include/imgui/example_glut_opengl2/example_glut_opengl2.vcxproj" />
+		<Unit filename="include/imgui/example_glut_opengl2/example_glut_opengl2.vcxproj.filters" />
+		<Unit filename="include/matter.h" />
+		<Unit filename="include/spacetime.h" />
+		<Unit filename="include/stb_image/stb_image.cpp" />
+		<Unit filename="include/stb_image/stb_image.h" />
+		<Unit filename="include/vector3.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
