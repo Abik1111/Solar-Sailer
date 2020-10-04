@@ -1,0 +1,5 @@
+WASD: Move
+Mouse: view 
+1,2,3,4: Chnage spaceship
+space: Lockdown and view planet
+z :view planet location
